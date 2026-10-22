@@ -1,0 +1,21 @@
+venv/
+__pycache__/
+*.pyc
+.env
+music.db*
+dev/
+
+# --- ajouté avant mise sur GitHub ---
+.env.*
+!.env.example
+.venv/
+node_modules/
+.pytest_cache/
+*.log
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+.claude/
+Thumbs.db
