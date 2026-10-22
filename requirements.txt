@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+httpx
+jinja2
+itsdangerous
+python-dotenv
+python-multipart
+yt-dlp
+pykakasi

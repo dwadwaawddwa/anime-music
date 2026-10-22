@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DWAnisongs</title>
+<link rel="icon" href="/static/favicon.svg?v={{ v }}" type="image/svg+xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@800&family=Shippori+Mincho:wght@600;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="/static/app.css?v={{ v }}">
+</head>
+<body class="login-page">
+<div id="stars" aria-hidden="true"></div>
+<main class="login-card">
+  <div class="brand big"><span class="dwa">DWA</span><span class="brand-name">nisongs</span></div>
+  <p>Tous les openings, endings et OST des animes de ta liste —<br>à écouter ici, à mettre en playlist Spotify ou YouTube.</p>
+  <a class="btn accent big" href="/login">Se connecter avec mon compte anime.dwa.gold</a>
+  <p class="muted small">Même compte que <a href="{{ anime_url }}">{{ anime_url | replace("https://", "") }}</a> : rien à créer.</p>
+</main>
+</body>
+</html>
